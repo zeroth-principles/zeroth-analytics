@@ -32,7 +32,7 @@ from zpmeta.funcs.func import Func
 
 
 class ActiveReturns_p_BenchmarkReturns_g_TotalReturns(Func):
-    """ This is Func class that takes benchmark returns as a param. Given a dataframe of retuns it returns the active returns.
+    """ This is Func class that takes benchmark returns as a param. Given a dataframe of returns it returns the active returns.
     """
     @classmethod
     def _execute(cls, operand=None, params: dict = None) -> object:
@@ -41,7 +41,7 @@ class ActiveReturns_p_BenchmarkReturns_g_TotalReturns(Func):
 
 
 class GrinoldDecomposition_p_BenchmarkParams_g_TotalReturns(Func):
-    """ This is Func class that takes benchmark returns as a param. Given a dataframe of retuns it returns the active returns.
+    """ This is Func class that takes benchmark returns as a param. Given a dataframe of returns it returns the active returns.
     """
     @classmethod
     def _execute(cls, operand=None, params: dict = None) -> object:
